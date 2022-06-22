@@ -4,6 +4,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
+
 function Home() {
   return (
     <div className="home">
@@ -20,39 +21,7 @@ function Home() {
         </a>
         </div>
       </div>
-      <div className="skills">
-        <h1> My Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2> I love building stuff </h2>
-            <span>
-              fill
-            </span>
-          </li>
-          <li className="item">
-            <h2>Featured</h2>
-            <span>
-              fill
-            </span>
-          </li>
-          <li className="item">
-            <h2>Projects</h2>
-            <span>fill</span>
-          </li>
-          <li className="item">
-            <h2>Contact me?</h2>
-            <span>Here's my email</span>
-          </li>
-        </ol>
-      </div>
-      <section>
-        <div className="section-title">SKILLS</div>
-        <p>Bunch of awesome content</p>
-      </section>
-      <div>
-        <h2>Heading</h2>
-        <p>Bunch of awesome content</p>
-      </div>
+      
     </div>
   );
 }

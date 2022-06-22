@@ -10,20 +10,23 @@ import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 import Skills from "./components/Skills";
 
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
+          
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
+        <Skills/>
         <Footer />
       </Router>
     </div>
