@@ -1,15 +1,88 @@
 div.section-icons {
+    
     vertical-align: top;
-    display: inline-block;
+    display: grid;
     text-align: center;
     width: 50px;
 }
-img {
-    width: 30px;
-    height: 30px;
-    background-color: blue;
+
+
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 75px 0px;
+}
+@media screen and (max-width: 1280px) {
+  .section {
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section {
+    padding: 50px 35px;
+  }
+}
+.section-title {
+  flex-shrink: 0;
+  width: 10px;
+  color: #D65A31;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 1024px) {
+  .section-title {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .section-title {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-title {
+    text-align: left;
+    width: auto;
+  }
+}
+.section-content {
+  font-weight: 300;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100px;
+}
+@media screen and (max-width: 768px) {
+  .section-content {
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-content {
+    padding-left: 30px;
+  }
+}
+.section-content p {
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
+
+/* background of the home page*/
 .about {
     width: 100%;
     height: calc(100vh - 100px);
@@ -22,8 +95,20 @@ img {
     color: #f0f0f0;
   }
   
-  svg {
+  .section-icons {
+    font-weight: 300;
+    font-size: 1rem;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
+    cursor: pointer;
+    padding-top: 10px;
+  }
+
+  svg {
+    width: 50%;
     height: 100%;
     fill: currentColor;
     color: #555;
@@ -31,7 +116,7 @@ img {
   }
   
   svg:hover {
-    color: #0967d2;
+    color: #D65A31;
     opacity: 1;
   }
   img {
@@ -39,8 +124,5 @@ img {
     vertical-align: middle;
   }
   .caption {
-    display: block;
-}
-.caption {
     display: block;
 }
