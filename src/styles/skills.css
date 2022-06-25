@@ -6,8 +6,17 @@ div.section-icons {
     width: 50px;
 }
 
-
-
+.section-title {
+  flex-shrink: 0;
+  width: 200px;
+  margin-right: 70px;
+  color: #0967d2;
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
 .section {
   display: flex;
   justify-content: center;
@@ -33,6 +42,7 @@ div.section-icons {
     padding: 50px 35px;
   }
 }
+
 .section-title {
   flex-shrink: 0;
   width: 10px;
@@ -63,7 +73,7 @@ div.section-icons {
   font-weight: 300;
   font-size: 1rem;
   width: 100%;
-  max-width: 100px;
+  max-width: 650px;
 }
 @media screen and (max-width: 768px) {
   .section-content {
@@ -77,10 +87,34 @@ div.section-icons {
   }
 }
 .section-content p {
-  margin-top: 0;
+  
+  margin-top: 0px;
   margin-bottom: 25px;
 }
 
+h3 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.75rem;
+  color: inherit;
+  font-family: 'Merriweather','Georgia',serif;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+  font-size: 1.4427rem;
+  line-height: 1.1;
+}
+
+.section-title h1 {
+  
+  margin-top: 0px;
+  font-size: 1px;
+  margin-bottom: 25px;
+}
 
 /* background of the home page*/
 .about {

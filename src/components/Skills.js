@@ -9,9 +9,9 @@ const Skills = () => {
   return (
     <section className="section skills">
       <div className="section-title">SKILLS & TOOLS</div>    
-      <h1>
+      <h3>
       The skills, tools and technologies I use to bring your products to life:
-      </h1>     
+      </h3>     
       <div className="section-icons">
         <div>
           <FaJava className="icon-hover" />

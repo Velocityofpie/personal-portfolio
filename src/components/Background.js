@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Background = () => {
   return (
     <section className="section background">

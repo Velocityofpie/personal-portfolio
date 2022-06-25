@@ -1,12 +1,33 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: flex;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  
+  /* this  project detail*/
+  .column {
+    float: left;
+    width: 33.33%;
+    /* column-count: 3;
+    column-width: 50px; */
+    
+  }
+  .project_details:after{
+    padding: 25px;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  /* end */
+
+
   .project h1 {
     margin-top: 50px;
     color: #3e497a;
@@ -18,8 +39,23 @@
   }
   
   .project p {
-    font-size: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    font-size: 20px;
     color: #3e497a;
+    max-width: 1004px;
+  }
+  .project p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
   
   .project svg {

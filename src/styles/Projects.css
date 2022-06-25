@@ -20,6 +20,17 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
+  .project_description{
+    font-size: 10px;
+  }
+
+  .project_description p {
+    
+    font-weight: 300;
+    line-height: 1.55;
+    
+  }
+  
   
   /* MENU ITEM STYLING */
   

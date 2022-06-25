@@ -20,8 +20,8 @@ function Footer() {
         </a>
       </div>
       <p>©2022 | Designed & coded by Joshua Hernandez</p>
-      <a  href='https://www.dropbox.com/s/5yqzya8f55ionbi/June%202022%20Resume.docx?dl=0' title="cv" target="_blank" rel='noopener noreferrer'>
-        "Cv link"
+        <a  href='https://www.dropbox.com/s/5yqzya8f55ionbi/June%202022%20Resume.docx?dl=0' title="cv" target="_blank" rel='noopener noreferrer'>
+          "Cv link"
     </a>
       
     </div>

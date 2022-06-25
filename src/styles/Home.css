@@ -12,6 +12,14 @@
     color: #D65A31;
     height: 50px;
   }
+ 
+  .section-content p{
+    font-size: 15px;
+  } 
+  .section-title h1{
+    font-size: 120%;
+  }
+
   
   .about .prompt {
     width: 40%;
