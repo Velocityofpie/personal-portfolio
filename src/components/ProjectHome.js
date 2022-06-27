@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles/ProjectHome.css";
 
 
+
 function ProjectHome() {
   return (
     <section id='projects' className='components_Section_Project bPXgTb ijglZJ'>
@@ -35,14 +36,13 @@ function ProjectHome() {
 
         </a>
         
-        <img src="Screenshot_from_2022-06-25_15-45-445654.png" alt="project img"/>
+        
         <div className='imageFluidContainer'>
           
           <a href='/project/0'>
             <div>
-              <image src="1.png"  alt="projectimg">
-
-              </image>
+              <img src="/static/media/Screenshot_from_2022-06-25_15-45-445654.ffd3ab71ce0722252620.png" alt="1"/>
+              
             </div>
           </a>
         </div>
