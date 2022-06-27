@@ -20,10 +20,7 @@ function ProjectDisplay() {
           <h3>type</h3>
           <div>Financial services</div>
         </div>
-        <div className="column">
-          <h3>Stack</h3>
-          <div> React</div> 
-        </div>
+        
         <div className="column">
           <h3>code</h3>
           <div>

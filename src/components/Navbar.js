@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
 
+
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -25,7 +26,7 @@ function Navbar() {
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
-        <Link to="/about"> About </Link>
+        <Link to="/about"> about </Link>
         <Link to="/blog"> Blog </Link>
         <Link to="/projects"> Projects </Link>
         

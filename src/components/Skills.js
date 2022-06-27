@@ -8,58 +8,57 @@ import "../styles/skills.css";
 const Skills = () => {
   return (
     <section className="section skills">
-      <div className="section-title">SKILLS & TOOLS</div>    
-      <h3>
-      The skills, tools and technologies I use to bring your products to life:
-      </h3>     
-      <div className="section-icons">
+
+      <div className="section-title">SKILLS&TOOLS</div>    
+            
+      <div className="section-content section-icons">
         <div>
           <FaJava className="icon-hover" />
-          <p>Java</p>
+          <p className="icon-name">Java</p>
         </div>
         <div>
           <FaPython className="icon-hover" />
-          <p>Python</p>
+          <p className="icon-name">Python</p>
         </div>
         <div>
           <FaHtml5 className="icon-hover" />
-          <p>Html</p>
+          <p className="icon-name">Html</p>
         </div>
         <div>
           <SiMysql className="icon-hover" />
-          <p>Mysql</p>
+          <p className="icon-name">Mysql</p>
         </div>
         <div>
           <FaCss3 className="icon-hover" />
-          <p>Css</p>
+          <p className="icon-name">Css</p>
         </div>
         <div>
         <FaJsSquare className="icon-hover" />
-          <p>Java Script</p>
+          <p className="icon-name">Java Script</p>
         </div>
         <div>
         <FaReact className="icon-hover" />
-          <p>React</p>
+          <p className="icon-name">React</p>
         </div>
         <div>
         <DiLinux className="icon-hover" /> 
-          <p>Linux</p>
+          <p className="icon-name">Linux</p>
         </div>
         <div>
         <DiEclipse className="icon-hover" />
-          <p>Eclipse</p>
+          <p className="icon-name">Eclipse</p>
         </div>
         <div>
         <SiFirebase className="icon-hover" />  
-          <p>Firebase</p>
+          <p className="icon-name">Firebase</p>
         </div>
         <div>
         <FaGitAlt className="icon-hover" />  
-          <p>Git</p>
+          <p className="icon-name">Git</p>
         </div>
         <div>
         <FaGithub className="icon-hover" />  
-          <p>Github</p>
+          <p className="icon-name">Github</p>
         </div>
       </div>
     </section>

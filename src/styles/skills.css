@@ -1,26 +1,104 @@
-div.section-icons {
-    
-    vertical-align: top;
-    display: grid;
-    text-align: center;
-    width: 50px;
-}
+
 
 .section-title {
-  flex-shrink: 0;
-  width: 200px;
-  margin-right: 70px;
-  color: #0967d2;
-  text-transform: uppercase;
-  text-align: right;
-  font-weight: 900;
-  letter-spacing: 2px;
-  font-size: 1.2rem;
+  
+  margin-right: 200px;
+  
 }
+/* .section-content.section-icons {
+  padding: 1.25rem 0 0;
+} */
+
+/* section skill needs work */
+/* .section-skills{
+  
+  margin-left: 1050px;
+  
+} */
+
+/* maybe replace */
+
+
+/* icons */
+.section-content.section-icons {
+  padding: 0;
+  padding-top: 1.25rem 0 0;
+  padding-bottom: 0px;
+
+
+}
+.icon-name{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+.section-icons {
+  font-weight: 200;
+  font-size: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  grid-column-gap: 1px;
+  grid-row-gap: 50px;
+  cursor: pointer;
+  padding-top: 1px;
+}
+.icon-name{
+  padding: 0rem;
+}
+.icon-hover {
+  transition: transform 250ms, opacity 400ms;
+}
+
+.icon-hover:hover {
+  transform: scale(1.25);
+  opacity: 1;
+}
+
+.section-icons > * {
+  width: 60px;
+  margin: 0 0px;
+}
+@media screen and (max-width: 970px) {
+  .section-icons > * {
+    width: 45px;
+    margin: 0px 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-icons {
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    grid-row-gap: 10px;
+  }
+  .section-icons > * {
+    width: 45px;
+    margin: 10px 25px;
+    grid-template-columns: repeat(4, minmax(70px, 1fr));
+  }
+}
+@media screen and (max-width: 550px) {
+  .section-icons {
+    align-self: center;
+    grid-template-columns: repeat(3, minmax(70px, 1fr));
+    grid-row-gap: 25px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .section-icons > * {
+    width: 50px;
+    margin: 15px 25px;
+  }
+}
+/* icons */
+
+
 .section {
   display: flex;
   justify-content: center;
-  padding: 75px 0px;
+  padding: 75px 10px;
 }
 @media screen and (max-width: 1280px) {
   .section {
@@ -45,7 +123,7 @@ div.section-icons {
 
 .section-title {
   flex-shrink: 0;
-  width: 10px;
+  width: 50px;
   color: #D65A31;
   text-transform: uppercase;
   text-align: center;
@@ -123,23 +201,13 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     align-items: center;
-    text-align: center;
+
     background-color: #222831;
     color: #f0f0f0;
   }
   
-  .section-icons {
-    font-weight: 300;
-    font-size: 1rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(6, minmax(100px, 1fr));
-    grid-column-gap: 25px;
-    grid-row-gap: 50px;
-    cursor: pointer;
-    padding-top: 10px;
-  }
 
   svg {
     width: 50%;
@@ -160,3 +228,4 @@ h3 {
   .caption {
     display: block;
 }
+
