@@ -86,6 +86,13 @@ element.style {
     grid-area: top / top / top / top;
 }
 
+.pjname {
+    grid-area: title / title / title / title;
+}
+.prjpar {
+    grid-area: text / text / text / text;
+}
+
 .kLicmg .imageFluidContainer {
     max-width: 500px;
     border-radius: 40px;
@@ -99,8 +106,8 @@ element.style {
     background: rgb(18, 30, 39);
     color: rgb(255, 255, 255);
     padding: 0.25rem 0.7rem;
-    margin: 0px 0.25rem 1rem 0px;
-    font-size: 0.8rem;
+    margin: 0px 0.5rem 0rem 0px;
+    font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
     display: flex;
@@ -128,3 +135,60 @@ element.style {
     font-size: 1.3rem;
     font-weight: 400;
 }
+
+.highlight{
+    color: #D65A31;
+}
+
+
+.pjname {
+    font-family: Muli;
+    padding: 0px;
+    letter-spacing: 0.1rem;
+    font-size: 4rem;
+    margin: 0px 0px 0rem;
+    letter-spacing: 0.1rem;
+}
+.imageFluidContainer {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    border-radius: 20px;
+}
+
+/* image size */
+/* .imageFluidContainer {
+    max-width: 500px;
+    border-radius: 40px;
+    transition: transform 0.3s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+}
+
+.imageFluidContainer {
+    position: relative;
+    overflow: hidden;
+}
+.imageFluidContainer {
+   grid-area: image / image / image / image;
+}
+
+
+@media only screen and (min-width: 1024px){
+    .dcyapr {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas:
+        "top top"
+        "title image"
+        "tags image"
+        "button image"
+        "text image";
+    }
+}
+.dcyapr {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-flow: column;
+    margin-bottom: clamp(50px, 20vh, 120px);
+}  */

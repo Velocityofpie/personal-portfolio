@@ -11,23 +11,44 @@ import ProjectHome from "../components/ProjectHome";
 function Home() {
   return (
     <div className="home">
+      <section className="iYHCMn">
       <div className="about">
-        <h2 className="top-text"> Hi, I'm Joshua | Software developer
-        </h2>
+        <div className="title">
+          
+          <h2 className="top-text kuqsKO"> 
+            <div>Hi,</div>
+            <div>I'm </div>
+            <div>Joshua </div>
+            <div>|</div>
+            <div className="highlight">
+              <div>Software </div>
+              </div>
+            <div className="highlight">
+              <div> developer</div>
+            </div>
+          
+          </h2>
+        </div>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <a target="blank" rel='noreferrer' href='https://www.linkedin.com/in/joshua-hernandez-7a825b197/'>
-            <LinkedInIcon  />
-          </a>
-          <a target="blank" rel='noreferrer' href='mailto:joshua.21bsc@gmail.com'>
-            <EmailIcon />
-          </a>
-        <a target="blank" rel='noreferrer' href='https://github.com/Velocityofpie'>
-            <GithubIcon />
-        </a>
+          <div>
+            <p className="fIYglH top-text-about">A software developer with a passion for learning and creating.</p>
+          </div>
+          <div>
+            <a target="blank" rel='noreferrer' href='https://www.linkedin.com/in/joshua-hernandez-7a825b197/'>
+              <LinkedInIcon  />
+            </a>
+            <a target="blank" rel='noreferrer' href='mailto:joshua.21bsc@gmail.com'>
+              <EmailIcon />
+            </a>
+            <a target="blank" rel='noreferrer' href='https://github.com/Velocityofpie'>
+              <GithubIcon />
+            </a>
+          </div>
+          
         </div>
         
       </div>
+      </section>
       <div>
         <Background/>
         <Skills/>
