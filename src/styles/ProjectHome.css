@@ -76,7 +76,6 @@ h1, h2, h3, h4, h5 {
     padding: 1rem 2.5rem 1.1rem;
     z-index: 100;
     border: 2px solid rgb(18, 30, 39);
-    transform: translate3d(-8px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transition: transform 0.2s ease-in-out 0s;
     font-weight: bold;
     
