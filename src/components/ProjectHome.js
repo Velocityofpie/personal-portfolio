@@ -45,17 +45,24 @@ function ProjectHome() {
               </div>
             </a>
           </div>
-          <a target="blank" rel='noreferrer' href='/project/0'>
-            View project
-          </a>
+          <div>
+            <a target="blank" rel='noreferrer' href='/project/0'>
+              <button className='bttn'>VIEW PROJECT</button>
+            </a>
+          </div>
           
-        </div>
+            
+          </div>
         <div>
         {/* seond break */}
         </div>
         second project goes here
         </div>
-      
+        <div className='containbutton'>
+            <a target="blank" rel='noreferrer' href='/projects'>
+              <button className='projbttn'>VIEW MORE PROJECTS</button>
+            </a>
+          </div>
       </div>
     </section>
   )

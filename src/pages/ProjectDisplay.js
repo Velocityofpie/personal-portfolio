@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
+import {FaCheck,} from "react-icons/fa";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
+  const[isSitelive]= useState(project.livesitestat);
+  const[isCodelive]= useState(project.codestat);
   return (
     <div className="project">
       <h1> {project.name}</h1>
@@ -18,14 +24,17 @@ function ProjectDisplay() {
       <div className="project_details">
         <div className="column">
           <h3>type</h3>
-          <div>Financial services</div>
+          <div>{project.type} </div>
         </div>
         
         <div className="column">
           <h3>code</h3>
           <div>
-            <a href="https://github.com/Velocityofpie/chaudr" target="blank">
-              <a href="https://github.com/Velocityofpie/chaudr">
+            <a href={project.Livesite} target="blank">
+              <a href={project.Livesite}>
+               {isSitelive ? <FaCheck className="status-Check-icon"  />: <FontAwesomeIcon icon={faXmark} className="status-X-icon" />}    
+               
+               
                 Live Site  
               </a>
             </a>
@@ -33,6 +42,7 @@ function ProjectDisplay() {
           <div>
             <a href={project.codesite} target="blank">
               <a href={project.codesite} >
+                {isCodelive ? <FaCheck className="status-Check-icon" />: <FontAwesomeIcon icon={faXmark} className="status-X-icon"  />}    
                 Code  
               </a>
             </a>

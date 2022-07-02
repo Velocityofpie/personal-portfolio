@@ -64,6 +64,47 @@ h1, h2, h3, h4, h5 {
     /* color: rgb(18, 30, 39); */
     padding: 1.2rem 2rem;
 }
+.bttn{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background:#D65A31;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    padding: 1rem 2.5rem 1.1rem;
+    z-index: 100;
+    border: 2px solid rgb(18, 30, 39);
+    transform: translate3d(-8px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transition: transform 0.2s ease-in-out 0s;
+    font-weight: bold;
+    
+    
+}
+.containbutton{
+    justify-content: center;  
+    display: flex;  
+    
+}
+.projbttn{
+     
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background:#D65A31;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    padding: 1rem 2.5rem 1.1rem;
+    z-index: 100;
+    
+    font-weight: bold;
+    
+    
+}
 h1 {
     margin-left: 0;
     margin-right: 0;

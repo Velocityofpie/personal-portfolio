@@ -7,25 +7,11 @@ const Background = () => {
       <div className="section-title">BACKGROUND</div>
       <div className="section-content">
         <p>
-          I recently graduated from{" "}
-          <a
-            href="https://www.rutgers.edu/" target="_blank" rel="noopener noreferrer" className="underline-link"
-          >
-            rutgers 
-          </a>{" "}
-          after completing Bachelor of Science in &
-          Telecommunication Engineering.
-        </p>
-        <p>
-          As a web developer, I enjoy bridging the gap between engineering and
-          design — combining my technical knowledge with my keen eye for design
-          to create a beautiful product. My goal is to always build applications
-          that are scalable and efficient under the hood while providing
-          engaging, pixel-perfect user experiences.
-        </p>
-        <p>
-          <strong>When I'm not in front of a computer screen</strong>, I'm
-          probably reading books, travelling or playing video games.
+        I started playing with computers when I was 5 years-old exploring the internet. 
+        Since then I have been tinkering with all sorts of technologies 
+        that in some way or another. Through been a geek I become passionate in building thing whether or not for hobbies or 
+        for a profession. I grab building computer, keyboards, and other some projects as hobby through the internet and spend much my time on the internet. When I'm not 
+        on the internet im learn more on coding through books and pick up more skills.
         </p>
         <a
           className="arrow-link"

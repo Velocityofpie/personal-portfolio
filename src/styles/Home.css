@@ -15,13 +15,13 @@
     background:#222831;
     max-width: 100vw;
     animation: 1s ease 0s 1 normal none running iHtkXv;
-    padding: 3rem 8rem;
+    padding: 3rem 9rem;
 }
 
 
   .top-text{
     display: flex;
-    max-width:60rem;
+    max-width:80rem;
     flex-wrap: wrap;
     
   }

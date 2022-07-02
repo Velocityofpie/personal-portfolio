@@ -1,5 +1,8 @@
 .projects {
     width: 100%;
+    /* take down later when there are more projects */
+    padding-bottom: 24.60rem;
+    
     height: auto;
     display: flex;
     justify-content: center;

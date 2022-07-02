@@ -48,6 +48,7 @@ const Skills = () => {
         <DiEclipse className="icon-hover" />
           <p className="icon-name">Eclipse</p>
         </div>
+        
         <div>
         <SiFirebase className="icon-hover" />  
           <p className="icon-name">Firebase</p>

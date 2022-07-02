@@ -2,6 +2,9 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -18,11 +21,16 @@ function Footer() {
             <GithubIcon />
             
         </a>
+        <a target="blank" rel='noreferrer'  title="cv" href='https://www.dropbox.com/s/5yqzya8f55ionbi/June%202022%20Resume.docx?dl=0'>
+          <FontAwesomeIcon icon={faFile} className="status-X-icon" />
+            
+        </a>
+        
+      
       </div>
+     
       <p>©2022 | Designed & coded by Joshua Hernandez</p>
-        <a  href='https://www.dropbox.com/s/5yqzya8f55ionbi/June%202022%20Resume.docx?dl=0' title="cv" target="_blank" rel='noopener noreferrer'>
-          "Cv link"
-    </a>
+        
       
     </div>
   );
