@@ -22,7 +22,7 @@
 /* icons */
 .section-content.section-icons {
   padding: 0;
-  padding-top: 1.25rem 0 0;
+  padding: 1.25rem 0 0;
   padding-bottom: 0px;
 
 
@@ -228,4 +228,3 @@ h3 {
   .caption {
     display: block;
 }
-

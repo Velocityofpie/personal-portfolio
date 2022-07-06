@@ -4,10 +4,6 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 // import ProjectItem from "../components/ProjectItem";
 
-
-
-
-
 function ProjectHome() {
   const navigate = useNavigate();
 

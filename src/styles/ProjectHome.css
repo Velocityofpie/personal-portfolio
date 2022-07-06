@@ -147,8 +147,8 @@ element.style {
     list-style: none;
     background: rgb(18, 30, 39);
     color: rgb(255, 255, 255);
-    padding: 0.25rem 0.7rem;
-    margin: 0px 0.5rem 0rem 0px;
+    padding:  0.25rem 0.7rem;
+    margin: .25rem 0.25rem 0px 0;
     font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
