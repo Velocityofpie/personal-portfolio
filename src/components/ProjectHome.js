@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/ProjectHome.css";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 // import ProjectItem from "../components/ProjectItem";
 
 
@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 
 
 function ProjectHome() {
+  const navigate = useNavigate();
+
   return (
     <section id='projects' className='components_Section_Project bPXgTb ijglZJ'>
       <div >
@@ -43,19 +45,15 @@ function ProjectHome() {
         </p>
         <div>
           
-          <div className='imageFluidContainer'>
-            <a href='/project/0'>
+          <div className='imageFluidContainer 'onClick={() => {navigate("/project/" + 0);}}>
+            
               <div>
                 <img src="/static/media/Screenshot_from_2022-06-25_15-45-445654.ffd3ab71ce0722252620.png" alt="1"/>
               </div>
-            </a>
+           
           </div>
-          <div>
-            <a target="blank" rel='noreferrer' href="/project/0">
-            
-
+          <div onClick={() => {navigate("/project/" + 0);}}>
               <button className='bttn'>VIEW PROJECT</button>
-            </a>
           </div>
           
             
