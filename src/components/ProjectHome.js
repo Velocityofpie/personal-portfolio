@@ -56,7 +56,7 @@ function ProjectHome() {
         <div>
         {/* seond break */}
         </div>
-        second project goes here
+        {/* second project goes here */}
         </div>
         <div className='containbutton'>
             <a target="blank" rel='noreferrer' href='/projects'>

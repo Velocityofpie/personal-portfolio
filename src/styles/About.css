@@ -1,0 +1,26 @@
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.75rem;
+}
+div, footer, h3, h4, li, p {
+    /* font-family: Muli; */
+}
+.text-font{
+     font-family: Muli;
+}
+h3 {
+    margin-left: 0;
+    margin-right: 0;
+ 
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.75rem;
+    color: inherit;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: 1.4427rem;
+    line-height: 1.1;
+}

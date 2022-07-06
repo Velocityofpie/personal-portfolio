@@ -1,19 +1,52 @@
 .footer {
-    width: 100%;
-    height: 250px;
-    background: #222831;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
-    margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap: 0px 2rem;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+    
   }
-  
+  .endnote{
+    color: #b7b4b9;
+   
+  }
+
+  .kqzVat {
+    position: relative;
+    padding: 2rem clamp(1rem, 7vw, 200px);
+    z-index: 2;
+    background-color:#222831;
+  }
+  .boxsizing{
+    width: 100px;
+    max-width: 100px;
+    color: #b7b4b9;
+}
+
+  .socialMediaT{
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .socialMedia{
+    align-items: end;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: start;
+  }
   .socialMedia svg {
     color: white;
-    margin: 20px;
-    font-size: 60px;
+    /* padding: 0rem 10rem 2rem 0px; */
+    margin: 10px;
+    height: 2.5rem;
+    width: 2.5rem;
     cursor: pointer;
   }
   
@@ -21,7 +54,10 @@
     color: white;
   }
 
-
+.endnote{
+  font-size: 15px;
+  
+}
   @media only screen and (max-width: 600px) {
     .footer svg {
       font-size: 50px;
