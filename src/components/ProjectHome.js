@@ -51,7 +51,7 @@ function ProjectHome() {
             </a>
           </div>
           <div>
-            <a target="blank" rel='noreferrer' href='https://joshuaihernandez.com/project/0'>
+            <a target="blank" rel='noreferrer' href="/project/0">
             
 
               <button className='bttn'>VIEW PROJECT</button>
