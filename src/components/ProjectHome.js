@@ -61,8 +61,9 @@ function ProjectHome() {
         {/* second project goes here */}
         </div>
         <div className='containbutton'>
-            <a target="blank" rel='noreferrer' >
-              <Link to="/projects"><button className='projbttn'>VIEW MORE PROJECTS</button>  </Link>
+            <a target="blank" rel='noreferrer' href='/projects'>
+              <Link to="/projects"> <button className='projbttn'>VIEW MORE PROJECTS</button> </Link>
+              
             </a>
           </div>
       </div>
