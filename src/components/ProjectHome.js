@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/ProjectHome.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -47,6 +48,7 @@ function ProjectHome() {
           </div>
           <div>
             <a target="blank" rel='noreferrer' href='/project/0'>
+              
               <button className='bttn'>VIEW PROJECT</button>
             </a>
           </div>
@@ -59,8 +61,8 @@ function ProjectHome() {
         {/* second project goes here */}
         </div>
         <div className='containbutton'>
-            <a target="blank" rel='noreferrer' href='/projects'>
-              <button className='projbttn'>VIEW MORE PROJECTS</button>
+            <a target="blank" rel='noreferrer' >
+              <Link to="/projects"><button className='projbttn'>VIEW MORE PROJECTS</button>  </Link>
             </a>
           </div>
       </div>
