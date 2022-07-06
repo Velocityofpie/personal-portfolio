@@ -15,6 +15,7 @@ function ProjectDisplay() {
   const[isCodelive]= useState(project.codestat);
   return (
     <div className="project">
+      
       <h1> {project.name}</h1>
       <div className="project_description">
         <p>

@@ -197,7 +197,11 @@ element.style {
     transition: transform 0.3s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
     border-radius: 20px;
 }
+@media only screen and (min-width: 1024px){
+.project_description{
 
+}
+}
 /* image size */
 /* .imageFluidContainer {
     max-width: 500px;

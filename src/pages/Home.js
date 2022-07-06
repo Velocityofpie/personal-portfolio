@@ -6,7 +6,7 @@ import "../styles/Home.css";
 import Skills from "../components/Skills";
 import Background from "../components/Background";
 import ProjectHome from "../components/ProjectHome";
-
+// import { FaFile } from "react-icons/fa";
 
 function Home() {
   return (
@@ -33,7 +33,7 @@ function Home() {
           <div>
             <p className="fIYglH top-text-about">A software developer with a passion for learning and creating.</p>
           </div>
-          <div>
+          <div className="prompticons">
             <a target="blank" rel='noreferrer' href='https://www.linkedin.com/in/joshua-hernandez-7a825b197/'>
               <LinkedInIcon  />
             </a>
@@ -43,6 +43,9 @@ function Home() {
             <a target="blank" rel='noreferrer' href='https://github.com/Velocityofpie'>
               <GithubIcon />
             </a>
+            {/* <a target="blank" rel='noreferrer'  href='https://www.dropbox.com/s/5yqzya8f55ionbi/June%202022%20Resume.docx?dl=0'> 
+              <FaFile/>
+            </a> */}
           </div>
           
         </div>
