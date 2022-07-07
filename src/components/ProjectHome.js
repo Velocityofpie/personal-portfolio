@@ -60,9 +60,7 @@ function ProjectHome() {
             
           </ul>
           <p className='jYkdj prjpar text'>
-            This program will be deployed as a web app, so it can be accessed on the browser. We found this to be the lowest cost 
-            solution to reach as many devices as possible. However as the server communicates through a normal HTTPS REST API and 
-            WebSocket, clients could be written in any form, from terminal apps to native OS apps
+            
           </p>
           <div>
             <div className='imageFluidContainer 'onClick={() => {navigate("/project/" + 1);}}>
