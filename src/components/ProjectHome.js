@@ -60,7 +60,7 @@ function ProjectHome() {
             
           </ul>
           <p className='jYkdj prjpar text'>
-            
+          This project was a desktop photo application that allows storage and management of photos in one or more albums, edit information, and tags. With the ability to have multiple users.
           </p>
           <div>
             <div className='imageFluidContainer 'onClick={() => {navigate("/project/" + 1);}}>
