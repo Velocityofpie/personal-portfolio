@@ -23,20 +23,19 @@ function ProjectDisplay() {
         </p>
       </div>
       <div className="project_details">
-        <div className="column">
+        {/* <div className="column">
           <h3>type</h3>
           <div>{project.type} </div>
-        </div>
+        </div> */}
         
         <div className="column">
           <h3>code</h3>
           <div>
             <a href={project.Livesite} target="blank">
               <a href={project.Livesite}>
-               {isSitelive ? <FaCheck className="status-Check-icon"  />: <FontAwesomeIcon icon={faXmark} className="status-X-icon" />}    
-               
-               
-                Live Site  
+               <span>{isSitelive ? <FaCheck className="status-Check-icon"  />: <FontAwesomeIcon icon={faXmark} className="status-X-icon" />}    </span>
+               <span>Live Site</span>
+      
               </a>
             </a>
           </div>
@@ -57,11 +56,11 @@ function ProjectDisplay() {
       
       <p>
         <b>Project Purpose and Goal:</b> 
-        <p>{project.PurposenGoal}</p>
+        <p  className="project_descriptionp">{project.PurposenGoal}</p>
       </p>
       <p>
         <b>Problems and Thought Process:</b> 
-        <p>{project.ProblemsnThought}</p>
+        <p  className="project_descriptionp"> {project.ProblemsnThought}</p>
       </p>
     </div>
   );

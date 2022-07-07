@@ -1,6 +1,6 @@
 import React from "react";
-import {FaJsSquare,FaReact,FaHtml5,FaGitAlt,FaGithub, FaJava, FaPython, FaCss3,} from "react-icons/fa";
-import {SiFirebase,SiMysql,} from "react-icons/si";
+import {FaJsSquare,FaReact,FaHtml5,FaGitAlt,FaGithub, FaJava, FaPython, FaCss3} from "react-icons/fa";
+import {SiMysql,} from "react-icons/si";
 import { DiEclipse,DiLinux } from "react-icons/di";
 import "../styles/skills.css";
 
@@ -49,10 +49,10 @@ const Skills = () => {
           <p className="icon-name">Eclipse</p>
         </div>
         
-        <div>
+        {/* <div>
         <SiFirebase className="icon-hover" />  
           <p className="icon-name">Firebase</p>
-        </div>
+        </div> */}
         <div>
         <FaGitAlt className="icon-hover" />  
           <p className="icon-name">Git</p>
