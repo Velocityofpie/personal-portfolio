@@ -52,7 +52,7 @@ function ProjectHome() {
             Personal Project
           </div>
           <h1>
-            <div className='pjname title'>Photo Ablum</div>
+            <div className='pjname title'>Photo Album</div>
           </h1>
           <ul className='fIXXpZ tags'>
             <li>Java</li>

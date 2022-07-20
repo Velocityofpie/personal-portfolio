@@ -18,7 +18,7 @@ export const ProjectList = [
     codestat: true,
   },
   {
-    name: "Photo Ablum",
+    name: "Photo Album",
     image: Proj2,
     type:"Ablum",
     skills: "Java,scene builder",
