@@ -29,7 +29,7 @@ function Navbar() {
         {/* <Link to="/about"> About </Link> */}
         {/* <Link to="/blog"> Blog </Link> */}
         <Link to="/projects"> Projects </Link>
-        <a target="blank" rel='noreferrer'  title="cv" href='https://www.dropbox.com/s/5yqzya8f55ionbi/June%202022%20Resume.docx?dl=0'>
+        <a target="blank" rel='noreferrer'  title="cv" href='https://www.dropbox.com/s/6pmfjfu8wgtocv4/September%202022%20Resume%20edits.docx?dl=0'>
           Resume
             
         </a>

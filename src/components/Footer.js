@@ -35,7 +35,7 @@ function Footer() {
             {/* <p>Github</p> */}
             
         </a>
-        <a target="blank" rel='noreferrer'  title="cv" href='https://www.dropbox.com/s/5yqzya8f55ionbi/June%202022%20Resume.docx?dl=0'> 
+        <a target="blank" rel='noreferrer'  title="cv" href='https://www.dropbox.com/s/6pmfjfu8wgtocv4/September%202022%20Resume%20edits.docx?dl=0'> 
           <FaFile/>
           {/* <p>Resume</p> */}
           
